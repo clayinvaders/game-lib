@@ -15,7 +15,7 @@ npm i @clayinvaders/game-lib
 # Use
 
 ```
-const { storeParams, sendScore } = require("@clayinvaders/game-lib")
+const { storeQueryParams, getStoredQueryParams, sendScore } = require("@clayinvaders/game-lib")
 
 #store querystring params to sessionStorage
 storeQueryParams()
