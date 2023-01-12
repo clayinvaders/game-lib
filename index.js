@@ -28,7 +28,8 @@ const sendScore = async (score) => {
     score: parseInt(score),
   }
   try {
-    return await axios.post(BASE_PATH, data)
+    const resp = await axios.post(BASE_PATH, data)
+    return resp.data
   } catch (error) {
     return error.response.data
   }

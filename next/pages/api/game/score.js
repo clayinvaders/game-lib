@@ -3,7 +3,7 @@ export default function handler(req, res) {
   const { ciPlayerId, ciMinigameId, score } = req.body
 
   try {
-    if (!ciPlayerId || !ciMinigameId || !score)
+    if (!ciPlayerId || !ciMinigameId || score === undefined)
       throw Error("Missing required param: [ciPlayerId, ciMinigameId, score]")
 
     res.status(200).json({ saved: "ok" })

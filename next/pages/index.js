@@ -2,12 +2,11 @@ import Head from "next/head"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import styles from "../styles/Home.module.css"
-const { storeParams, getParams, sendScore } = require("@clayinvaders/game-lib")
 const {
   getStoredQueryParams,
   storeQueryParams,
   sendScore,
-} = require("../../index")
+} = require("@clayinvaders/game-lib")
 
 export default function Home() {
   const [score, setScore] = useState(0)
