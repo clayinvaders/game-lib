@@ -1,0 +1,23 @@
+{
+  "name": "@clayinvaders/game-lib",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clayinvaders/game-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clayinvaders/game-lib/issues"
+  },
+  "homepage": "https://github.com/clayinvaders/game-lib#readme",
+  "dependencies": {
+    "axios": "^1.2.2"
+  }
+}
