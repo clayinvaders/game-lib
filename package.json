@@ -1,7 +1,7 @@
 {
   "name": "@clayinvaders/game-lib",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "ClayInvaders Game Lib",
   "main": "index.js",
   "scripts": {
     "test": "node tests/test.js"

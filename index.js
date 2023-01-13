@@ -1,5 +1,5 @@
 const axios = require("axios").default
-const BASE_PATH = "http://localhost:3000/api/game/score"
+const BASE_PATH = "http://game.clayinvaders.art/api/game/score"
 const START_KEY = "ci"
 
 const getStoredQueryParams = () => {
